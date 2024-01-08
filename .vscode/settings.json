@@ -1,0 +1,27 @@
+{
+    "cSpell.enableFiletypes": [
+        "yaml"
+    ],
+    "cSpell.language": "en,en-GB,en-US",
+    "cSpell.words": [],
+    // Causes the debug view to automatically appear when a breakpoint is hit. This
+    // setting is global and not configurable per-language.
+    "debug.openDebug": "openOnDebugBreak",
+    "editor.codeActionsOnSave": {
+        "dart.fixAll": "explicit",
+        "source.fixAll": "always",
+        "source.organizeImports": "explicit",
+        "source.sort.json": "explicit"
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*.dart": "$(capture).g.dart, $(capture).freezed.dart, $(capture).config.dart",
+        ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+        "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml, dart*.yaml, flutter*.yaml, icons_launcher.yaml",
+        "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md"
+    },
+    "files.associations": {
+        "*.drift": "sql"
+    }
+}
